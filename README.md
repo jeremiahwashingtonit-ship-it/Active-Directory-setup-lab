@@ -12,7 +12,7 @@ In this lab, we are going to deploy a Windows Server 2025 Virtual Machine on a P
 - <b>Virtualization: Proxmox VE </b> 
 - <b>Windows Server 2025</b>
 - <b>VirtIO Drivers</b>
-- <b>PowerShell</b> 
+   
 
 <h2>Environments Used </h2>
 
@@ -23,28 +23,28 @@ In this lab, we are going to deploy a Windows Server 2025 Virtual Machine on a P
 
 <p align="center">
 Creating the virtual machine and setting the Windows Server 2025 and VirtIO drivers iso image: <br/>
-<img src="https://i.imgur.com/OHQIN5s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OHQIN5s.png" height="80%" width="80%" alt="creating VM "/>
 <br />
 <br />
 Installing the Windows Serevr 2025 OS :  <br/>
-<img src="https://i.imgur.com/b8nUFSG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b8nUFSG.png" height="80%" width="80%" alt="installing OS"/>
 <br />
 <br />
 Installing Active Directoy, Group Policy Managment and other need roles : <br/>
-<img src="https://i.imgur.com/qwk9eSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qwk9eSM.png" height="80%" width="80%" alt="instaling AD"/>
 <br />
 <br />
 Promted the  server to a Domain Controler (DC) and created an AD domain(WashingtonLab.local) :  <br/>
-<img src="https://i.imgur.com/jYproc2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/dJ9gAac.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jYproc2.png" height="80%" width="80%" alt="DC creation"/>
+ <img src="https://i.imgur.com/dJ9gAac.png height="80%" width="80%" alt="DC creation "/>
 <br />
 <br />
   Creating Organizational Unit (OU) structure for departments like IT, HR, and Sales to mimic a corporate network  <br/>
-<img src="https://i.imgur.com/Y0BeLpt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Y0BeLpt.png" height="80%" width="80%" alt="OU creation"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Manually added Users to the IT Group:  <br/>
+<img src="https://i.imgur.com/yZ177on.png" height="80%" width="80%" alt="Addinig user to IT"/>
 <br />
 <br />
 Change IP from a dymanic to a static IP, that won't be released to the dhcp pool:  <br/>
