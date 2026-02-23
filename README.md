@@ -48,7 +48,7 @@ Manually added Users to the IT Group:  <br/>
 <br />
 <br />
 Change IP from a dymanic to a static IP, that won't be released to the dhcp pool:  <br/>
-<img src="https://i.imgur.com/Y0BeLpt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/icgnMSG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
