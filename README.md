@@ -3,18 +3,21 @@
 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this lab, we are going to deploy a Windows Server 2025 Virtual Machine on a Proxmox VE hypervisor to establish a functional Active Directory environment. After promoting the server to a Domain Controller, we will architect a hierarchical Organizational Unit (OU) structure for departments like IT, HR, and Sales to mimic a corporate network. To complete the project, we will provision user accounts and security groups within these OUs, implementing Role-Based Access Control and verifying domain connectivity through DNS..
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
+- <b>Virtualization: Proxmox VE </b> 
+- <b>Windows Server 2025</b>
+- <b>VirtIO Drivers</b>
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 11 Enterprise </b> (21H2)
+- <b>Server 2025 </b>
 
 <h2>Program walk-through:</h2>
 
