@@ -10,14 +10,15 @@ In this lab, we are going to deploy a Windows Server 2025 Virtual Machine on a P
 <h2>Languages and Utilities Used</h2>
 
 - <b>Virtualization: Proxmox VE </b> 
-- <b>Windows Server 2025</b>
-- <b>VirtIO Drivers</b>
+- <b>Operating System: Windows Server 2025</b>
+- <b>Identity Management: Active Directory Domain Services (AD DS)</b>
+- <b>Drivers: VirtIO Guest Tools for optimized VM performance</b>
    
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11 Enterprise </b> (21H2)
-- <b>Server 2025 </b>
+- <b>Windows 11 Enterprise (21H2): Client workstation for domain joining and GPO testing </b> (21H2)
+- <b>Windows Server 2025: Primary Domain Controller (DC) </b>
 
 <h2>Program walk-through:</h2>
 
