@@ -22,32 +22,33 @@ In this lab, we are going to deploy a Windows Server 2025 Virtual Machine on a P
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating the virtual machine and setting the Windows Server 2025 and VirtIO drivers iso image: <br/>
+<img src="https://i.imgur.com/OHQIN5s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installing the Windows Serevr 2025 OS :  <br/>
+<img src="https://i.imgur.com/b8nUFSG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installing Active Directoy, Group Policy Managment and other need roles : <br/>
+<img src="https://i.imgur.com/qwk9eSM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Promted the  server to a Domain Controler (DC) and created an AD domain(WashingtonLab.local) :  <br/>
+<img src="https://i.imgur.com/jYproc2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/dJ9gAac.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  Creating Organizational Unit (OU) structure for departments like IT, HR, and Sales to mimic a corporate network  <br/>
+<img src="https://i.imgur.com/Y0BeLpt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Change IP from a dymanic to a static IP, that won't be released to the dhcp pool:  <br/>
+<img src="https://i.imgur.com/Y0BeLpt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
